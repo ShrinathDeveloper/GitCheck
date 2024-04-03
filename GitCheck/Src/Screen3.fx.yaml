@@ -13,3 +13,10 @@ Screen3 As screen:
         Y: =29
         ZIndex: =3
 
+    Label4 As label:
+        Size: =20
+        Text: ="hello"
+        X: =100
+        Y: =280
+        ZIndex: =4
+
