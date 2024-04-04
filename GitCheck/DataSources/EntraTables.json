@@ -1,0 +1,100 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "new_entratables",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "new_entratable",
+    "Name": "EntraTables",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "new_email": "Email",
+      "new_entraid": "EntraID",
+      "new_entratable_AsyncOperations": "System Jobs",
+      "new_entratable_BulkDeleteFailures": "Bulk Delete Failures",
+      "new_entratable_DuplicateBaseRecord": "Duplicate Records (new_entratable_DuplicateBaseRecord)",
+      "new_entratable_DuplicateMatchingRecord": "Duplicate Records (new_entratable_DuplicateMatchingRecord)",
+      "new_entratable_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "new_entratable_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "new_entratable_ProcessSession": "Process Sessions",
+      "new_entratable_SyncErrors": "Sync Errors",
+      "new_entratableid": "EntraTable",
+      "new_name": "Name",
+      "new_role": "Role",
+      "new_userid": "UserID",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "EntraTables",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "EntraTables (Views)",
+    "Name": "_new_entratable_views",
+    "RelatedEntityName": "EntraTables",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "17c6551d-e309-49c3-92d0-c74ca3da6f85": "EntraTable Associated View",
+      "385c2986-c23b-4316-85be-aeb814a7421e": "Active EntraTables",
+      "66aefd45-a7bf-4aa6-a340-ec6fec4816ef": "Inactive EntraTables",
+      "c2f6046a-0c83-4188-b31a-f63de7f28d50": "EntraTable Advanced Find View",
+      "d2f885e0-f6d9-4bbb-bf37-1f8d326bb80a": "EntraTable Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (EntraTables)",
+    "Name": "new_entratable_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "EntraTables"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "EntraTables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (EntraTables)",
+    "Name": "new_entratable_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "EntraTables"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "EntraTables",
+    "Type": "OptionSetInfo"
+  }
+]
