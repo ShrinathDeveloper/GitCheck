@@ -8,7 +8,7 @@ Screen1 As screen:
         OnSelect: |-
             =Patch(EntraTables,Defaults(EntraTables),{Name:Gallery1.Selected.'Display Name',
             EntraID:Gallery1.Selected.'A unique identifer for Microsoft Entra ID',
-            Email:Gallery1.Selected.Mail,Role:"QA"})
+            Email:Gallery1.Selected.Mail,Role:"None"})
         TemplatePadding: =0
         TemplateSize: =104
         X: =40
